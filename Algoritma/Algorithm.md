@@ -8,7 +8,7 @@
 ----
 ## C. CONTOH ALGORITMA
   ### 1. GCD
-     ```java
+  ```java
      public static int mod(int a, int b){
           if ((a%b) == 0){
               return b;
@@ -16,9 +16,9 @@
   
           return mod(b, (a%b));
       }
-      ```
+  ```
   ### 2. Bubble sort
-      ```java
+  ```java
       for (int i = 0; i < angka.length-1; i++){
               for (int j = 0; j < angka.length-1-i; j++){
                   int temp;
@@ -30,9 +30,9 @@
                   }
               }
           }
-      ```
+  ```
   ### 3. Factorial
-     ```java
+  ```java
      public static int fact(int a){
           if (a == 0 || a == 1){
               return a;
@@ -40,5 +40,5 @@
   
           return(a*fact(a-1));
       }
-    ```
+  ```
    
